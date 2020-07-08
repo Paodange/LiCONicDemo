@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Parameters xmlns="http://xml.liconic.com/schema/conffile">
+<ParameterGroup>
+  <Name>System</Name>
+  <Parameter>
+    <Name>ID</Name>
+    <Value>STXSystem</Value>
+  </Parameter>
+  <ParameterGroup>
+    <Name>Devices</Name>
+    <Parameter>
+      <Name>ConfigFile</Name>
+      <Value>C:\STXDriver\DriverConfig\Devices\Device.xml</Value>
+    </Parameter>
+  </ParameterGroup>
+</ParameterGroup>
+
+<ParameterGroup>
+
+  <Name>Logging</Name>
+  <Parameter>
+    <Name>LowLevel</Name>
+    <Value>C:\STXDriver\DriverConfig\LowLevelLog</Value>
+  </Parameter>
+
+  <Parameter>
+    <Name>HighLevel</Name>
+    <Value>C:\STXDriver\DriverConfig\HighLevelLog</Value>
+  </Parameter>
+
+  <Parameter>
+    <Name>TCP</Name>
+    <Value>C:\STXDriver\DriverConfig\TCPLog</Value>
+  </Parameter>
+
+  <Parameter>
+    <Name>DevicesErrors</Name>
+    <Value>C:\STXDriver\DriverConfig\DeviceErrorLog</Value>
+  </Parameter>
+
+
+</ParameterGroup>
+
+
+<ParameterGroup>
+  <Name>TCPServer</Name>
+  <Parameter>
+    <Name>port</Name>
+    <Value>3333</Value>
+  </Parameter>
+</ParameterGroup>
+
+</Parameters>
+

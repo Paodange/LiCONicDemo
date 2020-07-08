@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Parameters xmlns="http://xml.liconic.com/schema/conffile">
+<ParameterGroup>
+  <Name>System</Name>
+
+  <Parameter>
+    <Name>DM25</Name>
+    <Value>27</Value>
+  </Parameter>
+
+  <Parameter>
+    <Name>T3</Name>
+    <Value>10</Value>
+  </Parameter>
+
+  <Parameter>
+    <Name>ST 1910</Name>
+    <Value>0</Value>
+  </Parameter>
+
+</ParameterGroup>
+
+
+
+</Parameters>

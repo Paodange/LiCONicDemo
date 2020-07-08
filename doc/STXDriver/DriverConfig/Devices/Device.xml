@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Parameters xmlns="http://xml.liconic.com/schema/conffile">
+
+<ParameterGroup>
+  <Name>Device</Name>
+  <Parameter>
+    <Name>ID</Name>
+    <Value>STX</Value>
+  </Parameter>
+  <Parameter>
+    <Name>DeviceComPort</Name>
+    <Value>COM1</Value>
+  </Parameter>
+  <Parameter>
+    <Name>BCReaderComPort</Name>
+    <Value>COM2</Value>
+  </Parameter>
+
+</ParameterGroup>
+
+<ParameterGroup>
+  <Name>Hardware</Name>
+  <Parameter>
+    <Name>Door</Name>
+    <Value>true</Value>
+  </Parameter>
+</ParameterGroup>
+
+<ParameterGroup>
+  <Name>Sensors</Name>
+  <Parameter>
+    <Name>ShovelPlateSensor</Name>
+    <Value>true</Value>
+  </Parameter>
+
+  <Parameter>
+    <Name>PlatePresenceSensor</Name>
+    <Value>true</Value>
+  </Parameter>
+
+  <Parameter>
+    <Name>1TransferStationPlateSensor</Name>
+    <Value>false</Value>
+  </Parameter>
+
+  <Parameter>
+    <Name>2TransferStationPlateSensor</Name>
+    <Value>true</Value>
+  </Parameter>
+
+</ParameterGroup>
+
+<!--
+<ParameterGroup>
+  <Name>CassettesConfiguration</Name>
+  <Parameter>
+    <Name>ConfigFile</Name>
+    <Value>C:\STXDriver\DriverConfig\Devices\CassettesConfig1.xml</Value>
+  </Parameter>
+
+  <Parameter>
+    <Name>UseCassConfTable</Name>
+    <Value>false</Value>
+  </Parameter>
+
+</ParameterGroup>
+-->
+<!--
+<ParameterGroup>
+  <Name>Parameters</Name>
+  <Parameter>
+    <Name>ParametersFile</Name>
+    <Value>C:\STXDriver\DriverConfig\Devices\Parameters1.xml</Value>
+  </Parameter>
+
+</ParameterGroup>
+-->
+
+</Parameters>

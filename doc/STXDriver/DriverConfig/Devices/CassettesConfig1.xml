@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CassettesConfiguration xmlns="http://com.liconic/cassettesconfig">
+<Cassettes>
+  <Id>1</Id>
+  <Z-Pitch>788</Z-Pitch>
+  <Levels>22</Levels>
+</Cassettes>
+<Cassettes>
+  <Id>2</Id>
+  <Z-Pitch>788</Z-Pitch>
+  <Levels>22</Levels>
+</Cassettes>
+<Cassettes>
+  <Min>3</Min>
+  <Max>20</Max>
+  <Z-Pitch>788</Z-Pitch>
+  <Levels>22</Levels>
+</Cassettes>
+
+<Cassettes>
+  <Min>21</Min>
+  <Max>40</Max>
+  <Z-Pitch>788</Z-Pitch>
+  <Levels>22</Levels>
+</Cassettes>
+
+</CassettesConfiguration>
